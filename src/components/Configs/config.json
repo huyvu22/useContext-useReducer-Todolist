@@ -1,0 +1,4 @@
+{
+    "SERVER_API": "http://localhost:3004/todos",
+    "PER_PAGE": "5"
+}
