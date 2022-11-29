@@ -148,6 +148,7 @@ const ShowTodo = () => {
 
     const getTotalPage = async () => {
         let param = '';
+        // let param = `_page=${listTodo.page}&_limit=${PER_PAGE}`
         if (listTodo.types !== '') {
             param = param + `isCompleted=${listTodo.types}`
         }

@@ -19,8 +19,9 @@ const Pagination = (props) => {
                     nextLabel="Next >"
                     onPageChange={(e) => handlePageClick(e)}
                     pageRangeDisplayed={3}
-                    marginPagesDisplayed={2}
+                    // marginPagesDisplayed={2}
                     pageCount={props.showState.pageCount}
+                    // pageCount={2}
                     previousLabel="< Prev"
                     pageClassName="page-item"
                     pageLinkClassName="page-link"

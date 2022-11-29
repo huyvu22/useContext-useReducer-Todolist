@@ -58,7 +58,7 @@ export const AppProvider = ({ children }) => {
         if (listTodo.types !== '') {
             param = param + `&isCompleted=${listTodo.types}`
             if (listTodo.page > 1) {
-                param = `_page=${listTodo.page - 1}&_limit=${PER_PAGE}$&isCompleted=${listTodo.types}`
+                param = `_page=${listTodo.page}&_limit=${PER_PAGE}$&isCompleted=${listTodo.types}`
             }
         }
         const res = await fetch(SERVER_API + '?' + param)
